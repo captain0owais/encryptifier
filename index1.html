@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,521&amp;family=Hubballi&amp;display=swap" rel="stylesheet">
+<style>
+
+body{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+font-family: 'hubballi' , cursive;
+}
+
+#heading{
+
+    color: limegreen;
+    width: max-content;
+}
+
+.box{
+inline-size: 90%;
+overflow-wrap: break-word;
+}
+
+.copy_right_footer{
+    position: fixed;
+    background-color: ghostwhite;
+    color: black;
+    font-size: large;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    line-height: 3;
+    font-weight: bolder;
+    text-shadow: 0 0 3px #FF0000;
+}
+
+
+.heading_div{
+    background: white;
+    font-weight: 500;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 1px 1px 50px lime;
+    float: none;
+    margin-top: 15px;
+    font-size: x-large;
+}
+
+#learn{
+    color: white;
+    font-family: 'hubballi';
+}
+  </style>
+
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style1.css">
+    <title>Encryptifier</title>
+  </head>
+  <body>
+        <!-- Button trigger modal --><br>&nbsp;
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Learn
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Learn</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            To encrypt type/paste the text to be encrypted in the first text box, the output is displayed under the textbox
+            <hr>
+            <p>
+                check out
+            <a href="https://captain0owais.github.io/kwitter/index.html">My chat website</a> <br>
+                
+                Tag me on Discord if you have any ideas for a website, We could colab?<br>
+                username:
+                <label style="color:violet">0.wise (or) o.wise.</label>
+                </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <center>
+        <br>
+        <h1 id="heading"><b>ENCRYPTIFIER</b></h1>
+        <br>
+        <br><br>
+
+<!--____________________________________-->
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-10 heading_div" style="letter-spacing: 2px;padding: 10px;">
+        <h3 id="div_head">Text to be Encrypted</h3>
+        <input id="encrypt_text" class="form-control">
+        <br>
+        <label>Encrypted output:</label>
+        <div id="resultsE" class="box">...</div>
+        <br>
+        <button id="calculateE" onclick="calculateE()" class="btn btn-success btn-lg">ENCRIPTIFY</button>
+        </div>
+<!--____________________________________-->
+
+<br><br><hr style="color:white;"><br><br>
+
+<h1 id="heading" ><b>DECRYPTIFIER</b></h1>
+<br>
+<!--____________________________________-->
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-10 heading_div" style="letter-spacing: 2px;padding: 10px;">
+<h3>Text to be Decrypted</h3>
+<input id="decrypt_text" class="form-control">
+<br>
+<label>Decrypted output:</label>
+<div id="resultsD" class="box">...</div>
+<br>
+<button id="calculateD" onclick="calculateD()" class="btn btn-success btn-lg">DECRYPTIFY</button>
+<br>
+</div>
+<br>
+<br>
+<!--____________________________________-->
+<br>
+<br>
+<br>
+<br>
+<div class="copy_right_footer" style="border-top: 1px solid grey;">
+    DEVELOPED BY - OWAIS
+  </div>
+    </center>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="main1.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>
